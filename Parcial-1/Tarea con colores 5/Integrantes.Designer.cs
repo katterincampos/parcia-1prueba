@@ -41,7 +41,7 @@ namespace Tarea_con_colores_5
             // 
             this.button1.BackColor = System.Drawing.Color.Aqua;
             this.button1.Location = new System.Drawing.Point(35, 71);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 65);
             this.button1.TabIndex = 0;
@@ -53,7 +53,7 @@ namespace Tarea_con_colores_5
             // 
             this.button2.BackColor = System.Drawing.Color.Aqua;
             this.button2.Location = new System.Drawing.Point(257, 71);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 65);
             this.button2.TabIndex = 1;
@@ -65,7 +65,7 @@ namespace Tarea_con_colores_5
             // 
             this.button3.BackColor = System.Drawing.Color.Aqua;
             this.button3.Location = new System.Drawing.Point(465, 71);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(150, 65);
             this.button3.TabIndex = 2;
@@ -77,7 +77,7 @@ namespace Tarea_con_colores_5
             // 
             this.button4.BackColor = System.Drawing.Color.Aqua;
             this.button4.Location = new System.Drawing.Point(35, 259);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(150, 65);
             this.button4.TabIndex = 3;
@@ -89,7 +89,7 @@ namespace Tarea_con_colores_5
             // 
             this.button5.BackColor = System.Drawing.Color.Aqua;
             this.button5.Location = new System.Drawing.Point(257, 259);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(150, 65);
             this.button5.TabIndex = 4;
@@ -101,7 +101,7 @@ namespace Tarea_con_colores_5
             // 
             this.button6.BackColor = System.Drawing.Color.Aqua;
             this.button6.Location = new System.Drawing.Point(465, 259);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(150, 65);
             this.button6.TabIndex = 5;
@@ -113,7 +113,7 @@ namespace Tarea_con_colores_5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(668, 392);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -121,7 +121,7 @@ namespace Tarea_con_colores_5
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Integrantes";
             this.Text = "Integrantes";
             this.Load += new System.EventHandler(this.Integrantes_Load);
